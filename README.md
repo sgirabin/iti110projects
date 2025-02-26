@@ -21,7 +21,7 @@ short_description: 'ITI110 Project: Spam Detection'
    - Accuracy: 0.9779	 
 - CNN + LTSM
    - Learning Rate: 0.0005
-   - Batch Size: 64
+   - Batch Size: 32
    - Accuracy: 0.9832
 - RNN LTSM
    - Learning Rate: 0.0005
