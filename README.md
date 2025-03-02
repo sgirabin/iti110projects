@@ -10,17 +10,15 @@
 - Github:  https://github.com/sgirabin/iti110projects 
 
 ## Model
-- CNN
-   - Learning Rate: 0.0005
-   - Batch Size: 32
-   - Accuracy: 0.9779	 
-- CNN + LTSM
-   - Learning Rate: 0.0005
-   - Batch Size: 32
-   - Accuracy: 0.9832
-- RNN LTSM
-   - Learning Rate: 0.0005
-   - Batch Size: 16
-   - Accuracy: 0.9877
+
+| Model | Batch Size| Dense Layer| Learning Rate| Test Loss| Accuracy| Precision| Recall| F1-Score| AUC | ROC | 
+---------------------------------------------------------------------------------------
+| CNN | 16 | [256, 128] | 0.0001 | 0.1889 | 98.04% | 97.34% | 98.88% | 98.10% | 99.77% | 
+| CNN + LSTM | | 16 | [128, 64] | 0.0001 | 0.0486 | 98.36% | 98.27% | 98.54% | 98.40% | 99.82% |
+| LSTM | 32 | [128, 64] | 0.0005 | 0.0537 | 98.70% | 98.17% | 99.31% | 98.74% | 99.87% |
+---------------------------------------------------------------------------------------
+
+
+
 
 
